@@ -10,7 +10,7 @@ const Header = () => {
   }
 
   return (
-    <div className='bg-black grid grid-flow-col h-20 sticky top-0 '>
+    <div className='bg-black grid grid-flow-col h-20 sticky top-0 z-50'>
       <div className='flex col-span-4 cu'>
        <img onClick={()=>handleToggle()} className='h-20'
        src='https://res.cloudinary.com/practicaldev/image/fetch/s--pwlGUbeq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gt5xtiacq4sjqmxuz2d7.gif'/>

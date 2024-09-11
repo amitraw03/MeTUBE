@@ -16,7 +16,7 @@ const Header = () => {
        <img onClick={()=>handleToggle()} className='h-20'
        src='https://res.cloudinary.com/practicaldev/image/fetch/s--pwlGUbeq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gt5xtiacq4sjqmxuz2d7.gif'/>
        <img 
-        className='w-52 h-[100px] -mt-3'src={meTUBE}/>
+        className='w-44 h-[80px] ml-2'src={meTUBE}/>
       </div>
       <div className='flex col-span-10'>
         <input 
